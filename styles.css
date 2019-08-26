@@ -1,0 +1,604 @@
+/*   Name:  Jair Bacaycay
+ *   Due:   08/24/19
+ * File:  styles.css
+ *****************************************************************************/
+ /* Page Description: This page is for external styles.
+
+/*Classes*/
+/* header classes START */
+
+.header-name {
+  margin: 0;
+  color: black;
+  font-family: 'Cinzel Decorative', cursive;
+  padding: 15px 0 0px 10px;
+  width: 254px;
+  font-size: 32px;
+}
+
+.header-pic {
+  margin: 19px 0 0px 10px ;
+  padding: 0;
+  height: 12px;
+  width: 47px;
+}
+
+.header-line {
+  height: 1px;
+  width: 80%;
+  text-align:left;
+  margin: 0 0 0 6px;
+  background-color: black;
+}
+
+.header-red-text {
+  color: #DD6060;
+  margin: 0 0 0 7px;
+  padding: 0px;
+
+  font-size: 16px;
+  width: 500px;
+}
+/* header classes END */
+
+.nav-bar-container {
+  margin: -25px;
+  background-color: white;
+  width: 103%;
+  height: 35px;
+  -webkit-box-shadow: 0px 3px 3px #dfdfdf;
+}
+
+/* footer classes START */
+.footer-area {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100.5%;
+  clear: both;
+  background-color: black;
+  color: white;
+  padding: 10px 0 0 0;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 12px;
+  justify-content: right;
+}
+
+.footer-icons { margin: 20px 0 0 20px; }
+
+.footer-icon-padding { margin: 0 0 0 10px; }
+
+.footer-line {
+  margin: 0px 20px 0 20px;
+  height: 80px;
+  width: 1px;
+  text-align:left;
+  background-color: white;
+}
+
+.footer-small-text {
+  font-size: 11px;
+  text-align: left;
+  width: 150px;
+  margin: 0 30px 0 0px;
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+
+.footer-content {
+  display: flex;
+  flex-flow: row wrap;
+  width: 60%;
+  justify-content: right;
+  margin: 20px 0 20px 0 ;
+}
+
+/* footer classes END */
+.text-right {
+  text-align: right;
+  margin: 0 7px 0 7px;
+  padding: 0 7px 0 7px;
+  font-size: 14px;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.collectionbanner {
+  background-image: url(images/Victorian-style-decorative-patterns.jpg);
+  background-position: "top";
+  background-repeat: no-repeat;
+  color: #da4646;
+  text-align: center;
+  padding-bottom: 34px;
+}
+
+.galleryframe {
+	margin: 20px 10px 20px 230px;
+  padding: auto;
+}
+
+body {
+/* background details */
+background-color:	white;
+
+/* body font details */
+font-family: Times New Roman, Book Antiqua, Times, serif;
+color: black;
+line-height: 1.5em;
+font-size: 16px;
+margin: 0;
+padding: 0;
+}
+
+/* headline configuations */
+h1, h2 {
+  color: white;
+  font-family: 'Cinzel Decorative', cursive;
+}
+/* table */
+table, tr {
+  border-collapse: collapse;
+}
+
+/* paragraph tag configuations */
+p {
+  margin: 5px 7px 5px 13px;
+  padding: 0 7px 5px 13px; }
+
+iframe { float: center;}
+
+legend, select {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  color: #da4646;
+  list-style-position: inside;
+  margin: 5px;
+  padding: 5px 10px 5px 0;
+}
+
+/* default link formatting */
+a { text-decoration: none; }
+a:link {color: #1874cd;}
+a:visited {color: #1874cd;}
+a:hover {color: #d63131; }
+a:active {color: #1874cd; }
+input:hover { color: silver; }
+h2:hover { color: #249FE8; }
+
+/**** ids *****/
+
+
+/* logo banner area */
+#header {
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom-style: solid;
+  height: 90px;
+  width: 49%;
+  color: black;
+  background-color: white;
+  padding: 12px 0 0 2.5%;
+  margin: 0;
+  font-size: 18px;
+  font-family: Book Antiqua;
+  text-align: left;
+}
+
+#header a {
+  color: black;
+  text-decoration: none; }  /* adds styles to company name for its double duty as a jump link */
+
+
+#backtotop {
+  color: black;
+  float: right;
+  padding: 0 180px 10px 0;
+  margin-top: -5%;
+  margin-right: -3%;
+}
+
+#special p:first-child:first-letter {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+/* dropdown navigation configurations START */
+#navbar {
+  padding: 0;
+  margin: 15px 0 0 0;
+  background-color: white;
+  background: white;
+}
+
+#navbar li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+}
+#navbar li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  background: white;
+  color: black;
+  text-decoration: none;
+  text-align: left;
+  font-size: 16px;
+}
+#navbar li a:hover {
+  background: white;
+  color: silver;
+}
+
+#navbar div a:hover { color: silver; }
+/* dropdown navigation configurations End */
+
+/* index classes START */
+.bird-splash {
+  margin: -10px 0 0 0;
+  width: 80%;
+  height: 0%;
+  align: right;
+}
+
+.index-enter-button {
+  background-color: #F5ADAD;
+  border: none;
+  color: white;
+  width: 250px;
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0;
+  padding: 0
+}
+
+.index-enter-button:hover {
+  background-color: #fbdada;
+}
+
+a:link .index-enter-button {color: white;}
+/* index classes END */
+
+
+/* CV classes START */
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pink-container {
+  margin: 70px 0 20px 0;
+  padding: 10px 0 0 25px;
+  width: 70%;
+  height: 730px;
+  background: #F5ADAD;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.pink-header {
+  margin: 5px 0 0 5px;
+  text-align: left;
+  width: 1000px;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.icon-padding {
+  padding: 10px 0 10px 0;
+}
+
+/* Cv */
+.content-inner-flex {
+  display: flex;
+}
+
+.cv-content-icons-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cv-icons {
+  margin: 5px 0 11px 0;
+  padding: 0 0 0 23px;
+  height: 500px;
+  width: 110px;
+  justify-content: center;
+}
+
+.cv-line {
+  margin: 0px 40px 0 40px;
+  height: 90%;
+  width: 1px;
+  text-align:left;
+  background-color: black;
+}
+
+.cv-text {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  width: 90%;
+  height: 450px;
+  justify-content: center;
+}
+
+.cv-text-padding {
+  margin: 10px 0 10px 0;
+  height: 80px;
+}
+
+.cv-pdf {
+  padding: 0 0 0 20px;
+  text-align: left;
+  width: 600px;
+  height: 60px;
+  flex-wrap: wrap;
+
+  display: flex;
+}
+/* CV classes END */
+
+
+/* Contact form START */
+.contact-form-buttons {
+  margin: 0 6px 0 0;
+  width: 248px;
+  height: 40px;
+  background: black;
+  color: white;
+  border: none;
+}
+
+.about-h1-1 {
+  margin: 5px 0 0 40px;
+  text-align: left;
+  width: 600px;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.about-h1-2 {
+  margin: 10px 0 0 15px;
+  text-align: left;
+  width: 688px;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.about-h1-3 {
+  margin: 10px 0 0 15px;
+  text-align: left;
+  width: 780px;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.about-h1-4 {
+  margin: 15px 0 0 15px;
+  text-align: left;
+  width: 780px;
+  height: 65px;
+  flex-wrap: wrap;
+}
+
+.contact-input-field {
+  height: 30px;
+  width: 500px
+}
+
+.contact-input-textfield-box {
+  width: 950px
+}
+
+.contact-input-textfield {
+  height: 300px;
+  width: 500px
+}
+
+.contact-cat-pic {
+  margin: -100px 0 0 -90px;
+  padding: 0;
+  background: white;
+  border-top: 40px solid white;
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  border-bottom: 25px solid white;
+}
+/* Contact form END */
+
+/* Projects form START */
+.projects-laptop-pic {
+  margin: -200px 0 0 75px;
+  background: white;
+  padding: 0;
+  border-top: 40px solid white;
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  border-bottom: 25px solid white;
+}
+
+.projects-line {
+  margin: -90px 25px 0 5px;
+  height: 104%;
+  width: 1px;
+  text-align:left;
+  background-color: black;
+}
+
+.projects-icon-padding {
+  padding: 12px 0 25px 0;
+}
+
+.projects-icons {
+  margin: -90px 0 11px 0;
+  padding: 0 0 0 23px;
+  height: 500px;
+  width: 110px;
+}
+
+.projects-text {
+  margin: -90px 0 0 0;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+}
+
+.projects-text-padding {
+  margin: 10px 0 25px 0;
+  height: 80px;
+}
+/* Projects END */
+
+/* About START */
+.me-image{
+  margin: -35px 0 0 0px;
+  background: white;
+  padding: 0;
+  border-top: 0px solid white;
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  border-bottom: 25px solid white;
+}
+
+.about-container-1 {
+  margin: 70px 0 20px 0;
+  padding: 10px 0 0 25px;
+  width: 70%;
+  height: 350px;
+  background: #F5ADAD;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.about-container-text-1 {
+  margin: -245px 0 0 360px;
+  text-align: left;
+  width: 780px;
+  height: 275px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-container-2 {
+  margin: 30px 0 20px 0;
+  padding: 10px 0 0 25px;
+  width: 70%;
+  height: 500px;
+  background: #F5ADAD;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.about-container-text-2 {
+  margin: -210px 0 0 15px;
+  text-align: left;
+  width: 650px;
+  height: 400px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-container-3 {
+  margin: 30px 0 20px 0;
+  padding: 10px 0 0 25px;
+  width: 70%;
+  height: 430px;
+  background: #F5ADAD;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.about-container-text-3 {
+  margin: -310px 0 0 15px;
+  text-align: left;
+  width: 770px;
+  height: 270px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-container-4 {
+  margin: 40px 0 20px 0;
+  padding: 10px 0 0 25px;
+  width: 70%;
+  height: 370px;
+  background: #87a190;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.about-container-text-4 {
+  margin: -200px 0 0 15px;
+  text-align: left;
+  width: 780px;
+  height: 260px;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-owl-pic {
+  margin: -70px 0px 0 40px;
+  padding: 0;
+  background: white;
+  border-top: 40px solid white;
+  border-left: 25px solid white;
+  border-right: 25px solid white;
+  border-bottom: 25px solid white;
+}
+
+.about-brain-pic {
+  background: white;
+  margin: -40px 0 0 0px;
+  padding: 0;
+  border-top: 10px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+}
+
+.about-tree-pic {
+  background: white;
+  margin: -50px 0 0 50px;
+  padding: 0;
+  border-top: 20px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+}
+.projects-text {
+  margin: -90px 0 0 0;
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  width: 450px;
+  height: 450px;
+  justify-content: center;
+}
