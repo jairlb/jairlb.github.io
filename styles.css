@@ -170,9 +170,9 @@ li {
 a { text-decoration: none; }
 a:link {color: #1874cd;}
 a:visited {color: #1874cd;}
-a:hover {color: #d63131; }
-a:active {color: #1874cd; }
-input:hover { color: silver; }
+a:hover {color: white; }
+a:active {color: black; }
+input:hover { color: black; }
 h2:hover { color: #249FE8; }
 
 /**** ids *****/
@@ -203,7 +203,7 @@ h2:hover { color: #249FE8; }
   color: black;
   float: right;
   padding: 0 180px 10px 0;
-  margin-top: -5%;
+  margin-top: -4%;
   margin-right: -3%;
 }
 
@@ -248,8 +248,7 @@ h2:hover { color: #249FE8; }
 /* index classes START */
 .bird-splash {
   margin: -10px 0 0 0;
-  width: 80%;
-  height: 0%;
+  width: 100%;
   align: right;
 }
 
@@ -493,12 +492,11 @@ a:link .index-enter-button {color: white;}
 
 .about-container-text-1 {
   margin: -245px 0 0 360px;
+  padding: 0px !important;
   text-align: left;
   width: 780px;
   height: 275px;
   font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .about-container-2 {
@@ -534,13 +532,11 @@ a:link .index-enter-button {color: white;}
 }
 
 .about-container-text-3 {
-  margin: -310px 0 0 15px;
+  margin: -317px 0 0 15px;
   text-align: left;
   width: 770px;
   height: 270px;
   font-size: 18px;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .about-container-4 {
